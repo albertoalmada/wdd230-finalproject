@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bountiful Inn & Suites - Contact Us</title>
+    <meta
+      name="description"
+      content="Website of Bountifull Inn & Suites  as project in WDD230 class BYU-I"
+    />
+    <link rel="logo icon" href="../images/logoico.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&display=swap "
+      rel="stylesheet "
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="top_header">
+        <img class="logo" src="images/logo.png" alt="brand logo" />
+        <h1>Bountiful Inn & Suites</h1>
+        <div class="social">
+          <a href="https://www.facebook.com">
+            <img src="images/facebook.png" alt="facebook icon"
+          /></a>
+          <a href="https://www.instagram.com">
+            <img src="images/instagram.png" alt="instagram icon"
+          /></a>
+        </div>
+      </div>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="firstNav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="temple.html">Temple</a>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li>
+            <a href="reservation.html">Reservations</a>
+          </li>
+          <li class="active">
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact">
+      <h1>Contact Information</h1>
+      <div class="contact-grid">
+        <h2>Temple Inn & Suites Headquarters</h2>
+
+        <p><strong>4800 Montgomery Ly #300, Bethesda, MD 20814</strong></p>
+        <p><strong>+1 (202) 123-4567</strong></p>
+        <p><strong>contact@templeinnsuites.com</strong></p>
+        <p>Monday - Friday 9am - 5pm</p>
+
+        <h2>
+          Bountiful Temple <br />
+          Inn & Suites
+        </h2>
+        <div>
+          <p><strong>Front Desk 24/7</strong></p>
+          <p>150 500W, Bountiful/UT - 84010</p>
+          <p>frontdesk@bountifultempleinnsuite.com</p>
+          <p>+1 (801) 295-1001</p>
+          <hr />
+        </div>
+        <div>
+          <p><strong>Reservations</strong></p>
+          <p>reservations@boutifultempleinnsuite.com</p>
+          <p>+1 (801) 295-1002</p>
+          <hr />
+        </div>
+        <div>
+          <p><strong>Services</strong></p>
+          <p>services@bountifultempleinnsuites.com</p>
+          <p>+1 (801) 295-1003</p>
+        </div>
+      </div>
+
+      <form class="mem-info">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <p>Need some help? Have doubts? It's a pleasure help you!</p>
+
+          <label>
+            Name* <br /><input type="text" name="fullname" required /></label
+          ><br />
+          <label>
+            Email*<br /><input type="email" name="email" required /> </label
+          ><br />
+          <label> Phone Number<br /><input type="tel" name="cell" /> </label
+          ><br />
+          <label> Address<br /><input type="text" name="address" /> </label
+          ><br />
+          <label>Comments/Questions</label>
+          <textarea name="textarea" id="content"></textarea>
+          <button class="send sndc" type="submit" value="submit">Send</button>
+        </fieldset>
+      </form>
+    </main>
+    <div class="today"></div>
+    <footer>
+      <div class="footer_top">
+        <img class="logo" src="images/logo.png" alt="brand logo" />
+      </div>
+      <p class="footer_data">
+        Temple Inn & Suites | Headquarters <br />4800 Montgomery Ln #300,
+        Bethesda, MD 20814<br />📌<a
+          target="_blank"
+          href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+EUA/@38.9832518,-77.0955318,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"
+          >Location Map</a
+        ><br />contact@templeinnsuites.com<br />+ 1 (202) 123-4567
+      </p>
+      <p class="footer_bottom">
+        &copy; <span id="year"></span> <span id="lastUpdate"></span>       
+
+      </p>
+    </footer>
+    
+    <script src="js/date.js"></script>
+    
+  </body>
+</html>
