@@ -171,6 +171,11 @@ nav ul.open {
   width: 100%;
 }
 
+.hero2 {
+  margin: -5px;
+  width: 98%;
+}
+
 img {
   width: 98%;
 }
@@ -181,6 +186,12 @@ img {
   background-color: rgb(87, 227, 220);
 }
 
+.event2 {
+  padding: 10px;
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
 
 .weather {
   margin: 5px;

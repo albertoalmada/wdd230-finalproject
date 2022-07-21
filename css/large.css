@@ -32,9 +32,16 @@
     grid-column: 1/2;
     grid-row: 1/2;
     width: 100%;
+    margin-bottom: -40px;
   }
 
-  
+  .hero2 {
+    margin: 5px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 100%;
+  }
+ 
 
   .event {
     margin: 5px;
@@ -43,10 +50,16 @@
     border: solid;
   }
 
+  .event2 {
+    margin: 5px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: solid;
+  }
   .weather {
     margin: 5px;
     grid-column: 1/4;
-    grid-row: 2/3;
+    grid-row: 3/4;
     border: solid;
   }
   /
